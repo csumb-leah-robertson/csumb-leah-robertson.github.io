@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width">
+			<title>OTTER OPINION FORM</title>
+      <link href="style.css" rel="stylesheet">
+		</head>
+		<body>
+      <h1 id="title"><strong>OTTER OPINION SURVEY</strong></h1>
+      <p id="description"><em>Thank you for taking this survey!</em></p>
+        <form id="survey-form"><fieldset id="fieldset">
+          <label id="name-label" class="question">
+            Name: <br>
+              <input id="name" class="question" type="text" name="name" required placeholder="Enter Your Name">
+          </label>
+        <br> <br>
+          <label id="email-label" class="question">
+            E-Mail: <br>
+              <input id="email" class="question" type="email" name="user_email" required placeholder="Enter Your Email">
+          </label>
+        <br> <br>
+          <label id="number-label" class="question">
+            Age (optional): <br>
+              <input id="number" type="number" name="quantity" min="1" max="900" placeholder="Age">
+          </label>
+          <p id="dropdown-question" class="question">How much do you know about otters?</p>
+            <select id="dropdown" class="question">
+              <option>Nothing :(</option>
+              <option>I know a bit!</option>
+              <option>I'm pretty familiar.</option>
+              <option>I'm an expert!</option>
+            </select>
+          <p id="radio-question" class="question">Have you seen an otter in person before?</p>
+            <label><input type="radio" name="option" value="yes">Yes</label>
+            <label><input type="radio" name="option" value="no">No</label>
+          <p id="checkbox-question" class="question">What is the cutest thing about Otters?</p>
+            <label><input type="checkbox" name="checkbox" value="squishy-faces">Their squishy faces</label> 
+          <br>
+            <label><input type="checkbox" name="checkbox" value="they-hold-hands">They hold hands when they are napping so they don't drift apart!</label>
+          <br>
+            <label><input type="checkbox" name="checkbox" value="they-juggle-rocks">They juggle rocks!</label>
+          <p id="textarea-question" class="question">If you've met an otter before, please recount your experience!</p>
+            <textarea name="comments" cols="20" rows="5">
+            </textarea>
+        <br>
+        <br>
+          <button id="submit">Submit</button>
+      </fieldset></form>
+		</body>
+	</html>

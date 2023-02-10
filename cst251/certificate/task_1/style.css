@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://images.saymedia-content.com/.image/t_share/MTkwNDMwNjM2ODUzNTAzODk4/otter-names.jpg);
+  background-repeat: repeat;
+  background-size: 50%;
+  text-align: center
+
+}
+#title {
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+}
+#description {
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  font-family: arial;
+  
+}
+#fieldset {
+  background-color: rgba(83, 96, 112, 0.5);
+  border: darkblue solid;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#number-label {
+  font-size: 110%;
+}
+.question {
+  color: rgba(207, 219, 234, 1.0);
+  font-family: helvetica;
+  font-size: 110%
+}
+#dropdown {
+  color: grey;
+}
+#submit {
+  text-align: center;
+}
+label {
+  color: white;
+  font-family: arial;
+  font-size: 110%;
+}
+
