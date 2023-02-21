@@ -4,21 +4,21 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width">
 			<title>Bunnies</title>
-			<link href="style.css" rel="stylesheet">
+			<link href="style2.css" rel="stylesheet">
 		</head>
 		<body>
 			<header>
-				<h1>Some-BUNNY Loves You!</h1>
-				<h2>Hop over for some Bunny Facts!</h2>
+				<h1 class="title">Some-BUNNY Loves You!</h1>
+				<h2 class="title">Hop over for some Bunny Facts!</h2>
 			</header>
 			<main>
 				<figure id="bunnyhop">
-					<img width="500" src="https://i.pinimg.com/736x/98/ab/a9/98aba9e5e14f307ea578455ac2a632df.jpg" alt="white bunny jumping">
+					<img id="bunbun" width="500" src="https://assets.petco.com/petco/image/upload/f_auto,q_auto/rabbit-care-sheet" alt="white bunny jumping">
 				</figure>
 				<div id="facts">
 				<div id="happybunny">
 					<div class="info">
-					<h3>Things your bunny will do when they're happy:</h3>
+					<h3 class="title">Things your bunny will do when they're happy:</h3>
 					<ul>
 						<li>Binkies</li>
 						<li>Flopping</li> 
@@ -26,13 +26,13 @@
 					</ul>
 					</div>
 					<figure id="bunday">
-						<img width="500" src="https://media.tenor.com/R2gej7_Ql90AAAAd/bunny-flop.gif" alt="bunny flop">
+						<img height="300" src="https://media.tenor.com/R2gej7_Ql90AAAAd/bunny-flop.gif" alt="bunny flop">
 						<figcaption><strong>Bun</strong>day mornings be like...</figcaption>
 					</figure>
 				</div>
 				<div id="bunnybreed">
 					<div class="info">
-					<h3>Most common bunny breeds in households:</h3>
+					<h3 class="title">Most common bunny breeds in households:</h3>
 					<ol>
 						<li>Holland Lop</li>
 						<li>Dutch Bunny</li>
@@ -40,14 +40,13 @@
 					</ol> 
 					</div>
 					<figure id="lionhead">
-						<img width="500" src="https://cdn.hswstatic.com/gif/lionhead-rabbit.jpg" alt="lionhead bunny">
+						<img height="300" src="https://cdn.hswstatic.com/gif/lionhead-rabbit.jpg" alt="lionhead bunny">
 						<figcaption>In our opinion, the <em>furrrrfect</em> bunny breed is the Lionhead!</figcaption>
 					</figure>
 				</div></div>
 			</main>
-			<hr>
 			<div id="form">
-				<h2>Bunny Form</h2>
+				<h2 id="formtitle">Bunny Form</h2>
 				<form>
 					<fieldset>
 						<legend>What is your favorite kind of bunny?</legend>
@@ -61,14 +60,16 @@
 							<label><input type="radio" name="option">Yes :)</label>
 							<label><input type="radio" name="option">No >:(</label>
 					</fieldset>
-					<p>Sign up for our bunny mailing list!</p>
-					<input type="email" name="user_email" required>
-					<button>Submit</button>
+					<div id="mailinglist">
+						<p>Sign up for our bunny mailing list!</p>
+						<input type="email" name="user_email" required>
+						<button>Submit</button>
+					</div>
 				</form>
 			</div>
 			<footer>
-				<p>Click <a href="https://rabbit.org/" target="_blank">here</a> for more bunny facts! </p>
-				<p> Robertson, 2023</p>
+				<p id="bunnyfacts">Click <a href="https://rabbit.org/" target="_blank">here</a> for more bunny facts! </p>
+				<p id="robertson"> Robertson, 2023</p>
 			</footer>
 		</body>
 	</html>

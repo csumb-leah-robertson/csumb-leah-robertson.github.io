@@ -1,0 +1,76 @@
+				/*CSS RULES */
+body {
+	background-image: url("img/heartbunny.png");
+	background-size: 50%;
+	background-repeat: repeat;
+}
+header {
+	text-align: center;
+	font-family: helvetica, arial;
+	font-size: 1rem;
+}
+img {
+	border-radius: 10%;
+}
+#bunnyhop {
+	text-align: center;
+}
+#happybunny {
+	width: 50%;
+	float: left;
+}
+#bunnybreed {
+	width: 50%;
+	float: right;
+
+}
+main {
+	margin-bottom: 30px;
+}
+#form {
+	margin-top: 15px;
+	max-width: 100%;
+	background-color: rgba(253, 229, 162, 0.5);
+}
+
+fieldset {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: seagreen;
+}
+legend {
+	background-color: rgba(204, 226, 152, 0.8);
+	border-radius: 5px;
+}
+
+a {
+	color: seagreen;
+}
+
+#formtitle {
+	font-family: helvetica, arial;
+	text-align: center;
+	color: seagreen;
+}
+
+.title {
+	color: hotpink;
+}
+
+#mailinglist {
+	text-align: center;
+}
+
+button {
+	color: seagreen;
+	background-color: lightpink;
+}
+
+#bunnyfacts {
+	text-align: center;
+}
+
+#robertson {
+	font-family: helvetica, arial;
+	text-align: right;
+}

@@ -25,7 +25,8 @@
 	}
 	main {
 		background-color: rgba(255, 237, 179, 0.5);
-		border-style: double;
+		border-radius: 40 px;
+		border-style: solid;
 		border-width: thick;
 		border-color: darkolivegreen;
 		margin-left: 10%;
@@ -70,6 +71,7 @@
 		float: left;
 		width: 50%;
 		text-align: center;
+		border-radius: 40 px;
 	}
 	#bunnybreed {
 		float: right;
