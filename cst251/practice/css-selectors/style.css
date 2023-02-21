@@ -6,6 +6,31 @@ main span {
 footer span {
 	color: blueviolet;
 }
-nav li {
+nav ul li {
 	color: blue;
+}
+
+#degreeprogramsCD {
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+}
+#degreeprogramsCS {
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+img {
+	width: 75%;
+	height: auto;
+	/* creates responsive images */
+}
+
+.minorimage {
+	border-radius: 5px;
+	border: 10px solid green;
+	padding: 10px;
+}
+
+footer	{
+	text-align: right;
 }
