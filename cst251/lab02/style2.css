@@ -17,10 +17,12 @@ img {
 }
 #happybunny {
 	max-width: 50%;
+	height: auto;
 	float: left;
 }
 #bunnybreed {
 	max-width: 50%;
+	height: auto;
 	float: right;
 
 }
