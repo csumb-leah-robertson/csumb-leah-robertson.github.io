@@ -1,0 +1,11 @@
+main span {
+	color: darkred;
+	background-color: yellow;
+	font-weight: bold;
+}
+footer span {
+	color: blueviolet;
+}
+nav li {
+	color: blue;
+}

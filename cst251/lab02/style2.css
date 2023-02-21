@@ -16,11 +16,11 @@ img {
 	text-align: center;
 }
 #happybunny {
-	width: 50%;
+	max-width: 50%;
 	float: left;
 }
 #bunnybreed {
-	width: 50%;
+	max-width: 50%;
 	float: right;
 
 }
