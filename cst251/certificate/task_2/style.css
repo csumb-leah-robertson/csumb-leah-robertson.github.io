@@ -9,7 +9,6 @@ body {
 
 #img-div {
   margin: 0 auto;
-  text-align: center;
 }
 
 #img-caption {
@@ -39,6 +38,8 @@ h1, h2 {
   background-color: #F5ECEC;
   padding-bottom: 15px;
   padding-top: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 li {
@@ -58,6 +59,8 @@ footer {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #tribute-link {
