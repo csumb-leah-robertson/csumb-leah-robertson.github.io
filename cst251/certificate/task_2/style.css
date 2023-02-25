@@ -54,6 +54,9 @@ ul {
   margin-bottom: 10px;
   width: 60%;
 }
+ul li {
+  padding-top: 15px;  
+}
 
 footer {
   font-family: system-ui, sans-serif;
